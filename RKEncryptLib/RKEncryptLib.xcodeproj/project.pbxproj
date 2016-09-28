@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		529B198F1D9B62EE00FF0492 /* RKEncryptLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 529B198E1D9B62EE00FF0492 /* RKEncryptLib.h */; };
+		529B19911D9B62EE00FF0492 /* RKEncryptLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 529B19901D9B62EE00FF0492 /* RKEncryptLib.m */; };
+		529B19991D9B63FB00FF0492 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529B19981D9B63FB00FF0492 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		529B19891D9B62EE00FF0492 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				529B198F1D9B62EE00FF0492 /* RKEncryptLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		529B198B1D9B62EE00FF0492 /* libRKEncryptLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRKEncryptLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		529B198E1D9B62EE00FF0492 /* RKEncryptLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKEncryptLib.h; sourceTree = "<group>"; };
+		529B19901D9B62EE00FF0492 /* RKEncryptLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKEncryptLib.m; sourceTree = "<group>"; };
+		529B19981D9B63FB00FF0492 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		529B19881D9B62EE00FF0492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529B19991D9B63FB00FF0492 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		529B19821D9B62EE00FF0492 = {
+			isa = PBXGroup;
+			children = (
+				529B198D1D9B62EE00FF0492 /* RKEncryptLib */,
+				529B198C1D9B62EE00FF0492 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		529B198C1D9B62EE00FF0492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				529B198B1D9B62EE00FF0492 /* libRKEncryptLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		529B198D1D9B62EE00FF0492 /* RKEncryptLib */ = {
+			isa = PBXGroup;
+			children = (
+				529B19971D9B633E00FF0492 /* Framework */,
+				529B198E1D9B62EE00FF0492 /* RKEncryptLib.h */,
+				529B19901D9B62EE00FF0492 /* RKEncryptLib.m */,
+			);
+			path = RKEncryptLib;
+			sourceTree = "<group>";
+		};
+		529B19971D9B633E00FF0492 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				529B19981D9B63FB00FF0492 /* Security.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		529B198A1D9B62EE00FF0492 /* RKEncryptLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529B19941D9B62EE00FF0492 /* Build configuration list for PBXNativeTarget "RKEncryptLib" */;
+			buildPhases = (
+				529B19871D9B62EE00FF0492 /* Sources */,
+				529B19881D9B62EE00FF0492 /* Frameworks */,
+				529B19891D9B62EE00FF0492 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RKEncryptLib;
+			productName = RKEncryptLib;
+			productReference = 529B198B1D9B62EE00FF0492 /* libRKEncryptLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		529B19831D9B62EE00FF0492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ryuji Kawaida";
+				TargetAttributes = {
+					529B198A1D9B62EE00FF0492 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 529B19861D9B62EE00FF0492 /* Build configuration list for PBXProject "RKEncryptLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 529B19821D9B62EE00FF0492;
+			productRefGroup = 529B198C1D9B62EE00FF0492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				529B198A1D9B62EE00FF0492 /* RKEncryptLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		529B19871D9B62EE00FF0492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529B19911D9B62EE00FF0492 /* RKEncryptLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		529B19921D9B62EE00FF0492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		529B19931D9B62EE00FF0492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		529B19951D9B62EE00FF0492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		529B19961D9B62EE00FF0492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		529B19861D9B62EE00FF0492 /* Build configuration list for PBXProject "RKEncryptLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529B19921D9B62EE00FF0492 /* Debug */,
+				529B19931D9B62EE00FF0492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		529B19941D9B62EE00FF0492 /* Build configuration list for PBXNativeTarget "RKEncryptLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529B19951D9B62EE00FF0492 /* Debug */,
+				529B19961D9B62EE00FF0492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 529B19831D9B62EE00FF0492 /* Project object */;
+}
